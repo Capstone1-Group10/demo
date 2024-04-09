@@ -1,0 +1,79 @@
+@import url("./reset.css");
+@import url("./global.css");
+@import url("./variables.css");
+
+.footer {
+    background: #222222;
+    padding: 50px 0 100px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    ;
+}
+
+.footer-col ul li {
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+}
+
+.footer-col ul li a {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 6px;
+}
+
+.footer-col ul li i {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+
+}
+
+.footer-col ul li span {
+    margin-left: 5px;
+}
+
+.footer-col img {
+    margin-left: 20px;
+}
+
+.footer-col .social-link a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.footer-col .social-link a:hover {
+    color: #222222;
+    background: #fff;
+}

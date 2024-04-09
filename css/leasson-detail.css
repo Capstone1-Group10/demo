@@ -1,0 +1,136 @@
+@import 'reset.css';
+@import 'global.css';
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.leasson-main {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.course-leasson {
+    padding: 0px 10px;
+    width: 330px;
+}
+.course-leasson h3{
+    margin-bottom: 20px;
+}
+
+.accordion-menu-lesson  li {
+    margin: 2px 0;
+}
+
+
+.accordion-menu-lesson li:last-child .course-dropdown {
+    border-bottom: 0;
+}
+
+.course-dropdown {
+    width: 330px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    padding: 15px 0px;
+    color: #000;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.course-dropdown p {
+    width: 250px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.course-dropdown:hover {
+    background: #4D57DD;
+    color: #fff;
+
+}
+
+.course-dropdown .fa-chevron-down {
+    position: absolute;
+    right: 10px;
+    left: auto;
+}
+
+.submenuItems {
+    display: none;
+    background: #fff;
+    /* transition: all 2s ease-in-out; */
+}
+
+.submenuItems li a {
+    display: flex;
+    align-content: center;
+    color: #000;
+    margin-left: 10px;
+    padding: 10px 0px;
+    transition: all .2s ease-in-out;
+    gap: 15px;
+}
+
+.submenuItems li p {
+    width: 210px;
+    height: auto;
+}
+
+.submenuItems a:hover {
+    background: #F1F8FF;
+}
+
+.accordion-menu-lesson li.active .submenuItems {
+    display: block;
+}
+
+.accordion-menu-lesson li:last-child .course-dropdown {
+    border-bottom: 0;
+}
+
+.accordion-menu-lesson li.active .course-dropdown .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.course-video {
+    width: 1080px;
+}
+
+.video-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.video-title .progress {
+    text-align: right;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.video-title .progress button {
+    background: #4D57DD;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+.video-title .progress button:hover {
+    background-color: #fff;
+    border: 2px solid #4D57DD;
+    color: #4D57DD;
+}
+
+.video {
+    width: 100%;
+    height: 550px;
+    background: #000;
+}
